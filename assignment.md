@@ -15,7 +15,7 @@ Question: Select all numeric columns except float from the DataFrame `dft`.
 Answer:
 
 ```python
-dft.select_dtypes(exclude=['float'])
+dft.select_dtypes(include=['number'], exclude=['float'])
 ```
 
 ### Question 2
